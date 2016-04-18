@@ -269,6 +269,9 @@
 //        [EUtility setRootViewGestureRecognizerEnabled:YES];
         
     }
+    if (meBrwView) {
+        meBrwView = nil;
+    }
 }
 
 //设置地图的类型
